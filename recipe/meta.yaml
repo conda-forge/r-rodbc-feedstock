@@ -34,10 +34,10 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - r-base
+    - r-base >=4.0.0
     - unixodbc                   # [unix]
   run:
-    - r-base
+    - r-base >= 4.0.0
     - {{ native }}gcc-libs         # [win]
     - unixodbc                   # [unix]
 
