@@ -37,7 +37,7 @@ requirements:
     - r-base >=4.0.0
     - unixodbc                   # [unix]
   run:
-    - r-base >= 4.0.0
+    - r-base >=4.0.0
     - {{ native }}gcc-libs         # [win]
     - unixodbc                   # [unix]
 
