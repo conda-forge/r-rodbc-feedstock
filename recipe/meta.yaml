@@ -15,6 +15,7 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 0
+  skip: True  # [r_base <4.0.0]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -34,10 +35,10 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
   host:
-    - r-base >=4.0.0
+    - r-base
     - unixodbc                   # [unix]
   run:
-    - r-base >=4.0.0
+    - r-base
     - {{ native }}gcc-libs         # [win]
     - unixodbc                   # [unix]
 
