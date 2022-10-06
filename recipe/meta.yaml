@@ -15,7 +15,6 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 1
-  skip: true  # [r_base == "3.6"]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -49,7 +48,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=RODBC
-  license: GPL-2 | GPL-3
+  license: GPL-2.0-only OR GPL-3.0-only
   summary: An ODBC database interface.
   license_family: GPL3
   license_file:
