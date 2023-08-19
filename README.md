@@ -3,6 +3,7 @@ About r-rodbc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rodbc-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rodbc
 -------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=RODBC
 Package license: GPL-2.0-only OR GPL-3.0-only
 
 Summary: An ODBC database interface.
+
 About r-rodbc
 -------------
 
