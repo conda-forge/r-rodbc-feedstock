@@ -1,4 +1,4 @@
-{% set version = "1.3-26.2" %}
+{% set version = "1.3-26.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RODBC_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RODBC/RODBC_{{ version }}.tar.gz
-  sha256: bfa85bb15fcc62e8a2e4f3fceeb8a9030686ca5e6f740b0a5604042f2db1a8ac
+  sha256: 51643953d2924f87bb16cc054e43a954f6edb05b0bfb013476bade542ef90415
 
 build:
   number: 0
